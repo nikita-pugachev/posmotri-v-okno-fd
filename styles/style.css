@@ -85,7 +85,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  width: 100%;
+  width: 711px;
   height: 386px;
 }
 
@@ -103,6 +103,29 @@ ol {
 
 .search-form__fieldset {
   border: none;
+}
+
+.search-form__fieldset-title {
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+  font-family: Fira Sans Condensed;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.search-form__label {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.search-form__textfield {
+  font-family: Fira Sans Condensed;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  width: 225px;
 }
 
 .search-form__checkbox-list {
@@ -159,30 +182,11 @@ ol {
   flex-grow: 1;
 }
 
-.search-form__fieldset-title {
-  text-overflow: ellipsis;
-  margin-bottom: 5px;
-  font-family: Fira Sans Condensed;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-}
-
-.search-form__textfield {
-  font-family: Fira Sans Condensed;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  width: 225px;
-}
-
 .title {
   font-family: Oswald;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -206,7 +210,6 @@ ol {
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
@@ -218,16 +221,9 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  letter-spacing: 0%;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   overflow: hidden;
-}
-
-.search-form__label {
-  display: flex;
-  align-items: center;
-  width: fit-content;
 }
 
 .search-form__textfield::placeholder {
@@ -275,11 +271,11 @@ input:focus {
   height: 15px;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
   display: block;
 }
 
-.search-form__label:hover .search-form__label-text{
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -343,4 +339,3 @@ input:focus {
 .content__video-card:focus-visible {
   outline: 1px solid #fff;
 }
-

@@ -123,13 +123,13 @@ ol {
 }
 
 .search-form__textfield {
+  appearance: none;
   font-family: inherit;
   font-weight: 400;
   font-size: inherit;
   line-height: 100%;
   width: 225px;
   appearance: none;
-  color: #fff;
   background-color: transparent;
   border: none;
   border-top: 1px solid #fff;
@@ -193,7 +193,7 @@ ol {
 }
 
 .title {
-  font-family: 'Oswald' , sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -212,7 +212,7 @@ ol {
 
 .content__video-card-title {
   padding-top: 6px;
-  font-family: 'Oswald' , sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -238,15 +238,6 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
-}
-
-.search-form__textfield {
-  appearance: none;
-  color: #fff;
-  background-color: transparent;
-  border: none;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
 }
 
 .search-form__textfield:focus {
@@ -328,17 +319,14 @@ ol {
 
 .content__card-link:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
-.content__video-card:hover {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
-.content__video-card:active {
-  background-color: #545050
-}
-
-.content__card-link:focus{
+.content__card-link:focus {
   outline: none;
 }
 

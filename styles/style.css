@@ -76,7 +76,7 @@ ol {
   grid-area: result;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 19px;
 }
 
 .content__details {
@@ -99,7 +99,6 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: start;
 }
 
 .search-form__fieldset {
@@ -184,7 +183,7 @@ ol {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
   justify-content: start;
   align-items: start;
   flex-grow: 1;
@@ -227,7 +226,6 @@ ol {
   font-size: 18px;
   line-height: 16.2px;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

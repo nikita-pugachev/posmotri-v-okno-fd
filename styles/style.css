@@ -126,7 +126,7 @@ ol {
   font-weight: 400;
   font-size: inherit;
   line-height: 100%;
-  width: 225px;
+  min-width: 225px;
   background-color: transparent;
   border: none;
   color: #fff;
@@ -146,7 +146,7 @@ ol {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 20px;
 }
 
 .content__list-container {
@@ -208,7 +208,7 @@ ol {
 }
 
 .content__video-card-title {
-  padding-top: 6px;
+  padding-top: 4px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -225,7 +225,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  -webkit-box-orient: vertical;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -281,7 +280,7 @@ ol {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 4px;
   padding-bottom: 6px;
 }
 

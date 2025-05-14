@@ -118,6 +118,8 @@ ol {
   align-items: center;
   width: fit-content;
   cursor: pointer;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
 }
 
 .search-form__textfield {
@@ -244,6 +246,21 @@ ol {
   outline-offset: 1px;
 }
 
+.search-form__label:active {
+  outline: none;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.search-form__checkbox-list .search-form__label:active{
+  border: none;
+}
+
+.search-form__checkbox-list:active .search-form__label {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
 .search-form__pseudo-checkbox {
   display: flex;
   justify-content: center;
@@ -330,3 +347,4 @@ ol {
   outline-offset: 0;
   border-radius: 0;
 }
+

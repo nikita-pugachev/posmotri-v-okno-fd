@@ -10,6 +10,11 @@
 ## Обновления
 Думаю можно добавить сайту такой функционал, чтобы видео запрашивались с сервера, это поможет расширить список городов, на которые сможет посмотреть пользователь.
 
+## Взгляд на проект
+<div align="center">
+<img src="./images/posmotri-v-okno.png">
+</div>
+
 ## Используемые технологии
 * HTML
 * CSS
@@ -22,5 +27,5 @@ git@github.com:nikita-pugachev/posmotri-v-okno-fd.git
 ```
 **2.Запуск**
 * Открыть проект в VS Code
-* Установить плагин Live Server
+* [Установить плагин Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 * Открыть просмотр проекта в любом браузере с помощью кнопки Go Live
